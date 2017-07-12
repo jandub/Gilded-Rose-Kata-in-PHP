@@ -5,13 +5,13 @@ namespace App;
 
 class NormalItem extends Item {
 
-	public function tick() {
-		$this->decreaseQuality();
+    public function tick() {
+        $this->decreaseQuality();
 
-		$this->tickDate();
+        $this->tickDate();
 
-		if ($this->sellIn < 0) {
-			$this->decreaseQuality();
-		}
-	}
+        if ($this->sellIn < 0) {
+            $this->decreaseQuality();
+        }
+    }
 }

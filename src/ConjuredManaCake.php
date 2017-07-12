@@ -5,8 +5,8 @@ namespace App;
 
 class ConjuredManaCake extends Item {
 
-	public function tick() {
-		$this->decreaseQuality();
+    public function tick() {
+        $this->decreaseQuality();
 
         $this->tickDate();
 

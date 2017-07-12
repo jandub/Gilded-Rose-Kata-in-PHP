@@ -5,13 +5,13 @@ namespace App;
 
 class AgedBrie extends Item {
 
-	public function tick() {
-		$this->tickDate();
+    public function tick() {
+        $this->tickDate();
 
-		$this->increaseQuality();
+        $this->increaseQuality();
 
-		if ($this->sellIn < 0) {
-			$this->increaseQuality();
-		}
-	}
+        if ($this->sellIn < 0) {
+            $this->increaseQuality();
+        }
+    }
 }

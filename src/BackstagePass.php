@@ -5,8 +5,8 @@ namespace App;
 
 class BackStagePass extends Item {
 
-	public function tick() {
-		$this->increaseQuality();
+    public function tick() {
+        $this->increaseQuality();
 
         if ($this->sellIn < 11) {
             $this->increaseQuality();
