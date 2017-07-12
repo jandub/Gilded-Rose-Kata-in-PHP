@@ -21,5 +21,5 @@ class BackStagePass extends Item {
         if ($this->sellIn < 0) {
             $this->quality = 0;
         }
-	}
+    }
 }
